@@ -27,6 +27,7 @@ nav {
 nav .mainMenu {
     display: flex;
     list-style: none;
+    font-weight: 550;
 }
 
 nav .mainMenu li a {
@@ -45,6 +46,10 @@ nav .mainMenu li a:hover {
 nav .openMenu {
     font-size: .6rem;
     margin: 20px;
+    display: none;
+}
+
+nav .closeMenu {
     display: none;
 }
 
@@ -77,8 +82,10 @@ nav .logo {
 }
 
 .hero-text p {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 15px;
+    font-weight: 550;
+    opacity: .8;
 }
 
 .hero-text button {
@@ -98,6 +105,7 @@ nav .logo {
     padding: .4rem;
     width: 100%;
     outline: none;
+    cursor: pointer;
 }
 
 .mat {
@@ -106,6 +114,11 @@ nav .logo {
     display: flex;
     justify-content: center;
     padding: .4rem;
+    font-weight: 550;
+}
+
+.boy {
+    display: flex;
 }
 
 .hero-text a {
@@ -135,6 +148,13 @@ nav .logo {
     color: white;
     padding: .8rem;
     margin-top: 1rem;
+    font-weight: 550;
+}
+
+.doing {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 .org {
@@ -143,34 +163,64 @@ nav .logo {
 }
 
 .org-text {
-    margin-top: 4.6rem;
-    width: 100%;
-    line-height: 1.8;
-    font-size: 20px;
-    margin-left: 1rem;
+    width: 90%;
 }
 
 .org-text p {
     opacity: .8;
     font-weight: 550;
+    line-height: 1.9;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 2rem;
 }
 
-.org-text h1 {
-    font-size: 30px;
-}
 
 .ref img {
-    width: 100%;
-    margin-top: 5.5rem;
+    width: 98%;
+    margin-top: 2.5rem;
 }
 
-@media(max-width:800px){
+.do h1 {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.donate {
+    display: flex;
+}
+
+.donate p {
+    margin-top: 1.8rem;
+    line-height: 2.2;
+    font-size: 20px;
+    opacity: .8;
+    font-weight: 550;
+    width: 80%;
+    margin-left: .5rem;
+}
+
+.what img {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    font-weight: 550;
+}
+
+@media(max-width:1000px){
     nav .mainMenu {
-        height: 100vh;
+        height: 40vh;
         position: fixed;
         top: 0;
         right: 0;
-        left: 0;
+        left: 100;
         z-index: 10;
         flex-direction: column;
         justify-content: center;
@@ -178,23 +228,32 @@ nav .logo {
         background: blue;
         transition: top 1s ease;
         display: none;
+        margin-top: 1rem;
+    }
+
+    .fas fa-bars {
+        cursor: pointer;
+    }
+
+    .line {
+        width: 100%;
     }
 
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        top: 20px;
+        top: 0;
         right: 20px;
     }
 
     nav .openMenu {
-        display: flex;
+        display: block;
     }
 
     nav .mainMenu li a:hover {
         background: none;
         color: white;
-        font-size: 1rem;
+        font-size: .7rem;
     }
 
     nav .logo {
@@ -205,11 +264,12 @@ nav .logo {
         flex-wrap: wrap;
     }
 
+
     .hero {
-        display: block;
+        display: grid;
     }
     .hero-img {
-        display: block;
+        display: grid;
     }
 
     .hero-img img {
@@ -226,8 +286,13 @@ nav .logo {
         text-align: center;
     }
 
+    .boy {
+        display: grid;
+        margin: 0 auto;       
+    }
+
     .org {
-        display: block;
+        display: grid;
     }
 
     .org-text {
@@ -235,16 +300,42 @@ nav .logo {
         line-height: 1.8;
         text-align: center;
         margin-top: 1rem;
+        width: 100%;
     }
 
     .org-text p {
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 550;
         opacity: .8;
+        text-align: center;
     }
 
     .ref img {
         width: 100%;
         margin-left: 0;
+    }
+
+    .gender {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .do h1 {
+        font-size: 20px
+    }
+
+    .donate {
+        display: grid;
+    }
+
+    .donate p {
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+        font-size: 17px;
+    }
+
+    footer {
+        font-size: 13px;
     }
 }
