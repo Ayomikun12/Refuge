@@ -59,60 +59,66 @@ nav .logo {
     cursor: pointer;
 }
 
-.doing {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.org {
-    display: flex;
-    justify-content: space-between;
-}
-
-.org-text {
-    width: 90%;
-}
-
-.org-text p {
-    opacity: .8;
-    font-weight: 550;
-    line-height: 1.9;
-    width: 100%;
-    font-size: 20px;
-    margin-top: 2rem;
-}
-
-
-.ref img {
-    width: 98%;
-    margin-top: 2.5rem;
-}
-
-.do h1 {
+.hero h1 {
     text-align: center;
-    margin-top: 2rem;
-    font-size: 30px;
-    font-weight: 700;
+    margin-top: 1rem;
 }
 
-.donate {
+.part {
+    font-size: 23px;
+    line-height: 2.5;
+    margin-top: 1.8rem;
+    width: 82%;
+    font-weight: 550;
+    opacity: .8;
+    margin-left: 1rem;
+}
+
+.total {
+    font-size: 23px;
+    line-height: 2.5;
+    margin-top: 1.8rem;
+    width: 100%;
+    font-weight: 550;
+    opacity: .8;
+    margin-left: 1rem;
+}
+
+.teach {
+    font-size: 23px;
+    line-height: 2.5;
+    margin-top: 1.8rem;
+    width: 85%;
+    font-weight: 550;
+    opacity: .8;
+    margin-left: 1rem;
+}
+
+.non {
+    font-size: 23px;
+    line-height: 2.8;
+    margin-top: 1.8rem;
+    font-weight: 550;
+    opacity: .8;
+    margin-left: 1rem;
+    width: 62%;
+}
+
+.africa {
     display: flex;
 }
 
-.donate p {
-    margin-top: 1.8rem;
-    line-height: 2.2;
-    font-size: 20px;
-    opacity: .8;
-    font-weight: 550;
-    width: 80%;
-    margin-left: .5rem;
+
+.pic1 img, .pic2 img, .pic3 img, .pic4 img {
+    width: 100%;
 }
 
-.what img {
-    width: 100%;
-    margin-top: 2.5rem;
+.pic1 img {
+    margin-top: 2.7rem;
+}
+
+.pic2 img, .pic3 img, .pic4 img {
+    margin-top: 3rem;
 }
 
 footer {
@@ -163,48 +169,16 @@ footer {
         font-size: 15px;
     }
 
-    .org {
+    .africa {
         display: grid;
     }
 
-    .org-text {
-        font-size: 15px;
-        line-height: 1.8;
+    .hero-text p {
+        font-size: 18px;
         text-align: center;
-        margin-top: 1rem;
         width: 100%;
-    }
-
-    .org-text p {
-        font-size: 17px;
-        font-weight: 550;
-        opacity: .8;
-        text-align: center;
-    }
-
-    .ref img {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .gender {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .do h1 {
-        font-size: 20px
-    }
-
-    .donate {
-        display: grid;
-    }
-
-    .donate p {
-        text-align: center;
-        margin-left: 0;
-        width: 100%;
-        font-size: 17px;
+        margin: 0;
+        margin-top: 1.5rem;
     }
 
     footer {
