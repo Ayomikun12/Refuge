@@ -59,74 +59,94 @@ nav .logo {
     cursor: pointer;
 }
 
-.doing {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
+h1 {
+    text-align: center;
+    /* margin-top: 1rem; */
 }
 
-.org {
-    display: flex;
-    justify-content: space-between;
+.org h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.org .rom {
+    text-align: center;
+    font-weight: 600;
 }
 
 .org-text {
-    width: 90%;
-}
-
-.org-text p {
-    opacity: .8;
-    font-weight: 550;
-    line-height: 1.9;
-    width: 100%;
-    font-size: 20px;
-    margin-top: 2rem;
-    margin-left: 2rem;
-}
-
-
-.ref img {
-    width: 100%;
-    margin-top: 2.5rem;
-    margin-left: 1rem;
-}
-
-.do h1 {
-    text-align: center;
-    margin-top: 2rem;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.donate {
     display: flex;
 }
 
-.donate p {
-    margin-top: 1.8rem;
-    line-height: 2.2;
-    font-size: 20px;
-    opacity: .8;
+.org-text .africa {
+    width: 70%;
+    margin-top: 2rem;
+    font-size: 22px;
     font-weight: 550;
-    width: 80%;
-    margin-left: .5rem;
+    opacity: .8;
+    line-height: 1.9;
+    margin-left: 1rem;
 }
 
-.what img {
+.org-img img {
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
 }
+
+.hero-text {
+    display: flex;
+}
+
+.hero-text .fulani {
+    width: 70%;
+    margin-top: 2rem;
+    font-size: 22px;
+    font-weight: 550;
+    opacity: .8;
+    line-height: 2.1;
+    margin-left: 1rem;
+}
+
+.hero-img img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.home-text {
+    display: flex;
+}
+
+.home-text .illit {
+    width: 70%;
+    margin-top: 2rem;
+    font-size: 22px;
+    font-weight: 550;
+    opacity: .8;
+    line-height: 2.1;
+    margin-left: 1rem;
+}
+
+.home-img img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
 
 footer {
     background-color: rgb(78, 122, 241);
     color: white;
     padding: 1rem;
     font-weight: 550;
+    margin-top: 3rem;
 }
 
-@media(max-width:800px){
+
+@media(max-width:1000px){
     nav .mainMenu {
-        height: 30vh;
+        height: 35vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -138,7 +158,7 @@ footer {
         background: rgb(78, 122, 241);
         transition: top 1s ease;
         display: none;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 
     .line {
@@ -148,7 +168,7 @@ footer {
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        top: 20px;
+        top: 0;
         right: 20px;
     }
 
@@ -166,53 +186,37 @@ footer {
         font-size: 15px;
     }
 
-    .org {
-        display: grid;
-    }
-
     .org-text {
-        font-size: 15px;
-        line-height: 1.8;
-        text-align: center;
-        margin-top: 1rem;
-        width: 100%;
-    }
-
-    .org-text p {
-        font-size: 17px;
-        font-weight: 550;
-        opacity: .8;
-        text-align: center;
-        margin: 0;
-    }
-
-    .ref img {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .gender {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .do h1 {
-        font-size: 20px
-    }
-
-    .donate {
         display: grid;
     }
 
-    .donate p {
-        text-align: center;
-        margin-left: 0;
+    .org-text .africa {
         width: 100%;
-        font-size: 17px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .hero-text {
+        display: grid;
+    }
+
+    .hero-text .fulani {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .home-text {
+        display: grid;
+    }
+
+    .home-text .illit {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
     }
 
     footer {
         font-size: 13px;
-        margin-top: 2rem;
     }
 }

@@ -59,62 +59,38 @@ nav .logo {
     cursor: pointer;
 }
 
-.doing {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-}
-
-.org {
-    display: flex;
-    justify-content: space-between;
-}
-
-.org-text {
-    width: 90%;
-}
-
-.org-text p {
-    opacity: .8;
-    font-weight: 550;
-    line-height: 1.9;
-    width: 100%;
-    font-size: 20px;
-    margin-top: 2rem;
-    margin-left: 2rem;
-}
-
-
-.ref img {
-    width: 100%;
-    margin-top: 2.5rem;
-    margin-left: 1rem;
-}
-
-.do h1 {
+.hero h1 {
     text-align: center;
-    margin-top: 2rem;
-    font-size: 30px;
-    font-weight: 700;
+    margin-top: 1rem;
 }
 
-.donate {
-    display: flex;
-}
-
-.donate p {
-    margin-top: 1.8rem;
-    line-height: 2.2;
-    font-size: 20px;
-    opacity: .8;
-    font-weight: 550;
-    width: 80%;
-    margin-left: .5rem;
-}
-
-.what img {
+.hero-text .founders {
+    margin-top: 1rem;
+    font-size: 22px;
     width: 100%;
-    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.hero-text h2 {
+    margin-left: 2rem;
+    text-decoration-line: underline;
+    margin-top: 1rem;
+}
+
+.hero-text .serve {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-size: 22px;
+    line-height: 1.8;
+    opacity: .6;
+}
+
+.hero-text .ministry {
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 2.0;
+    opacity: .6;
 }
 
 footer {
@@ -122,9 +98,11 @@ footer {
     color: white;
     padding: 1rem;
     font-weight: 550;
+    margin-top: 3rem;
 }
 
-@media(max-width:800px){
+
+@media(max-width:1000px){
     nav .mainMenu {
         height: 30vh;
         position: fixed;
@@ -148,7 +126,7 @@ footer {
     nav .mainMenu .closeMenu {
         display: block;
         position: absolute;
-        top: 20px;
+        top: 0;
         right: 20px;
     }
 
@@ -166,53 +144,41 @@ footer {
         font-size: 15px;
     }
 
-    .org {
-        display: grid;
+    .hero h1 {
+        font-size: 19px;
     }
 
-    .org-text {
-        font-size: 15px;
-        line-height: 1.8;
+    .hero-text .founders {
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 1rem;
+        opacity: .8;
+    }
+
+    .hero-text h2 {
+        margin: 0;
         text-align: center;
         margin-top: 1rem;
-        width: 100%;
+        font-size: 18px;       
     }
 
-    .org-text p {
-        font-size: 17px;
-        font-weight: 550;
-        opacity: .8;
-        text-align: center;
+    .hero-text .serve {
         margin: 0;
-    }
-
-    .ref img {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .gender {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .do h1 {
-        font-size: 20px
-    }
-
-    .donate {
-        display: grid;
-    }
-
-    .donate p {
         text-align: center;
-        margin-left: 0;
-        width: 100%;
-        font-size: 17px;
+        margin-top: 1rem;
+        font-size: 18px;
+    }
+
+    .hero-text .ministry {
+        margin: 0;
+        text-align: center;
+        font-size: 18px;
+        margin-top: .5rem;
     }
 
     footer {
         font-size: 13px;
-        margin-top: 2rem;
+        margin-top: 3rem;
     }
 }

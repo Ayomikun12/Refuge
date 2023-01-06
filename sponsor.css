@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-    background: blue;
+    background: rgb(78, 122, 241);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -84,7 +84,7 @@ nav .logo {
 }
 
 footer {
-    background-color: blue;
+    background-color: rgb(78, 122, 241);
     color: white;
     padding: 1rem;
     font-weight: 550;
@@ -101,7 +101,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: blue;
+        background: rgb(78, 122, 241);
         transition: top 1s ease;
         display: none;
     }

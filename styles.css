@@ -18,7 +18,7 @@ body {
 }
 
 nav {
-    background: blue;
+    background: rgb(78, 122, 241);
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -96,7 +96,7 @@ nav .logo {
     padding-left: 2rem;
     padding-right: 2rem;
     border: 1.6px solid;
-    border-color: blue;
+    border-color: rgb(78, 122, 241);
 }
 
 .hero-text select {
@@ -108,17 +108,31 @@ nav .logo {
     cursor: pointer;
 }
 
+.hero-text .space {
+    margin-top: 1.5rem;
+    text-align: center;
+    background-color: rgb(78, 122, 241);
+    padding: .4rem;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
 .mat {
-    background-color: blue;
-    margin-top: 20px;
+    margin-top: 25px;
+    font-weight: 550;
     display: flex;
     justify-content: center;
-    padding: .4rem;
-    font-weight: 550;
 }
 
 .mat a {
-    width: 100%;
+    text-decoration: none;
+    background-color: rgb(78, 122, 241);
+    color: white;
+    padding: .4rem;
+    width: 25%;
     text-align: center;
 }
 
@@ -149,7 +163,7 @@ nav .logo {
 
 .link a {
     text-decoration: none;
-    background-color: blue;
+    background-color: rgb(78, 122, 241);
     color: white;
     padding: .8rem;
     margin-top: 1rem;
@@ -213,15 +227,16 @@ nav .logo {
 }
 
 footer {
-    background-color: blue;
+    background-color: rgb(78, 122, 241);
     color: white;
     padding: 1rem;
     font-weight: 550;
+    margin-top: 3rem;
 }
 
 @media(max-width:1000px){
     nav .mainMenu {
-        height: 40vh;
+        height: 35vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -230,14 +245,10 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: blue;
+        background: rgb(78, 122, 241);
         transition: top 1s ease;
         display: none;
         margin-top: 1rem;
-    }
-
-    .fas fa-bars {
-        cursor: pointer;
     }
 
     .line {
@@ -320,6 +331,10 @@ footer {
         margin-left: 0;
     }
 
+    .mat a {
+        width: 70%;
+    }
+
     .gender {
         display: flex;
         flex-wrap: wrap;
@@ -342,5 +357,6 @@ footer {
 
     footer {
         font-size: 13px;
+        margin-top: 3rem;
     }
 }
