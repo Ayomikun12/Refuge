@@ -61,6 +61,7 @@ nav .logo {
 
 .org h1 {
     text-align: center;
+    margin-top: 1rem;
 }
 
 .org h2 {
@@ -81,6 +82,8 @@ nav .logo {
     font-size: 22px;
     line-height: 2.0;
     margin-left: 1rem;
+    font-weight: 550;
+    opacity: .8;
 }
 
 .org-img img {
@@ -103,6 +106,8 @@ nav .logo {
     line-height: 2.0;
     margin-top: 2rem;
     margin-left: 1rem;
+    font-weight: 550;
+    opacity: .8;
 }
 
 .hero-img img {
@@ -120,6 +125,8 @@ nav .logo {
     line-height: 2.0;
     margin-top: 2rem;
     margin-left: 1rem;
+    font-weight: 550;
+    opacity: .8;
 }
 
 .home-img img {
@@ -179,6 +186,7 @@ footer {
 
     .org h1 {
         margin-top: 1rem;
+        font-size: 22px;
     }
 
     .org-text {

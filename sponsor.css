@@ -88,11 +88,12 @@ footer {
     color: white;
     padding: 1rem;
     font-weight: 550;
+    margin-top: 3rem;
 }
 
-@media(max-width:800px){
+@media(max-width:1000px){
     nav .mainMenu {
-        height: 40vh;
+        height: 36vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -104,6 +105,7 @@ footer {
         background: rgb(78, 122, 241);
         transition: top 1s ease;
         display: none;
+        margin-top: 1.8rem;
     }
 
     .line {

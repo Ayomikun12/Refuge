@@ -77,7 +77,7 @@ nav .logo {
 
 .jere {
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
+    font-weight: 1000;
     text-align: center;
 }
 
@@ -163,6 +163,10 @@ footer {
 
     nav .logo {
         font-size: 15px;
+    }
+
+    .hero h1 {
+        font-size: 22px;
     }
 
     .hero-text {

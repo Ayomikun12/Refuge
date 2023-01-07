@@ -124,7 +124,7 @@ footer {
     font-weight: 550;
 }
 
-@media(max-width:800px){
+@media(max-width:1000px){
     nav .mainMenu {
         height: 30vh;
         position: fixed;
@@ -198,6 +198,10 @@ footer {
 
     .do h1 {
         font-size: 20px
+    }
+
+    .doing h1 {
+        font-size: 22px;
     }
 
     .donate {
