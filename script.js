@@ -19,3 +19,18 @@ match.onclick = function(e){
     e.preventDefault();
     location.href = '/sponsor.html'
 }
+
+
+
+let form = document.forms['my-form'];
+console.log(form)
+let menu = form.country;
+let options = form.country.options;
+
+form.onsubmit = function(e){
+    e.preventDefault();
+
+    let optionValue = this.country.value;
+
+    // location.href = '/sponsor.html'
+}

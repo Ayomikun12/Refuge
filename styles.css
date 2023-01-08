@@ -238,9 +238,9 @@ footer {
     nav .mainMenu {
         height: 35vh;
         position: fixed;
-        top: 0;
+        top: 6.5%;
         right: 0;
-        left: 100;
+        left: 80;
         z-index: 10;
         flex-direction: column;
         justify-content: center;
@@ -248,7 +248,6 @@ footer {
         background: rgb(78, 122, 241);
         transition: top 1s ease;
         display: none;
-        margin-top: 2rem;
     }
 
     .line {
