@@ -238,9 +238,9 @@ footer {
     nav .mainMenu {
         height: 35vh;
         position: fixed;
-        top: 6.5%;
+        top: 40px;
         right: 0;
-        left: 80;
+        left: 100;
         z-index: 10;
         flex-direction: column;
         justify-content: center;
