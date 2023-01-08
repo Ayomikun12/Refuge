@@ -105,11 +105,6 @@ footer {
         background: rgb(78, 122, 241);
         transition: top 1s ease;
         display: none;
-        margin-top: 1.8rem;
-    }
-
-    .line {
-        width: 100%;
     }
 
     nav .mainMenu .closeMenu {
