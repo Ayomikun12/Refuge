@@ -136,6 +136,11 @@ nav .logo {
     width: 100%;
 }
 
+.click {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
 .image{
     background-color: rgb(78, 122, 241);
     color: white;
