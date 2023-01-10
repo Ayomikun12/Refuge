@@ -134,91 +134,16 @@ nav .logo {
 
 .home-img img {
     width: 100%;
-    margin-top: 2rem;
 }
 
-.pictures h1 {
-    text-align: center;
-    margin-top: 3rem;
-    font-size: 28px;
-}
-
-.pic15 {
-    display: flex;
-}
-
-.image img {
-    width: 100%;
-    margin-top: 2.5rem;
-}
-
-.image2 img {
-    width: 100%;
-    margin-top: 2.5rem;
-}
-
-.pic16 {
-    display: flex;
-}
-
-.image3 img, .image4 img {
-    width: 100%;
-    margin-top: 4rem;
-}
-
-.pic17 {
-    display: flex;
-}
-
-.image5 img, .image6 img {
-    width: 100%;
-    margin-top: 4rem;
-}
-
-.pic19 {
-    display: flex;
-}
-
-.image9 img, .image10 img {
-    width: 100%;
-    margin-top: 4rem;
-}
-
-.pic20 {
-    display: flex;
-}
-
-.image11 img {
-    width: 100%;
-    margin-top: 4rem;
-}
-
-.image12 img {
-    width: 100%;
-    margin-top: 4rem;
-}
-
-.pic18 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.image7 img, .image8 img {
-    width: 100%;
-    margin-top: 4rem;
-    height: 100vh;
-    
-}
-
-.pic21 {
-    display: flex;
-    justify-content: center;
-}
-
-.image13 img {
-    width: 50%;
-    margin-left: 20rem;
-    margin-top: 4rem;
+.image{
+    background-color: rgb(78, 122, 241);
+    color: white;
+    padding: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 3px;
 }
 /* ------------------------------ SECTION ----------------------- */
 

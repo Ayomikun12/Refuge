@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav p {
+    color: white;
+    font-size: 20px;
+    margin: .5rem;
+    font-weight: 700;
+}
+
+nav {
+    background: rgb(78, 122, 241);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}  
+
+nav .logo {
+    margin: 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.pictures h1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 28px;
+}
+
+.pic15 {
+    display: flex;
+}
+
+.image img {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.image2 img {
+    width: 100%;
+    margin-top: 2.5rem;
+}
+
+.pic16 {
+    display: flex;
+}
+
+.image3 img, .image4 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pic17 {
+    display: flex;
+}
+
+.image5 img, .image6 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pic19 {
+    display: flex;
+}
+
+.image9 img, .image10 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pic20 {
+    display: flex;
+}
+
+.image11 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.image12 img {
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.pic18 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image7 img, .image8 img {
+    width: 100%;
+    margin-top: 4rem;
+    height: 100vh;
+    
+}
+
+.pic21 {
+    display: flex;
+    justify-content: center;
+}
+
+.image13 img {
+    width: 50%;
+    margin-left: 20rem;
+    margin-top: 4rem;
+}
+
+@media(max-width:1000px){
+    nav .logo {
+        font-size: 15px;
+    }
+
+    .pictures h1 {
+        font-size: 20px;
+    }
+
+    .pic15 {
+        display: grid;
+    }
+
+    .pic16 {
+        display: grid;
+    }
+
+    .pic17 {
+        display: grid;
+    }
+
+    .pic18 {
+        display: grid;
+    }
+
+    .pic19 {
+        display: grid;
+    }
+
+    .image9 img, .image10 img {
+        width: 100%;
+    }
+
+    .pic20 {
+        display: grid;
+    }
+    
+    .image13 img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer {
+        font-size: 13px;
+        margin-top: 3rem;
+    }
+}
