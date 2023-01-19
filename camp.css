@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* ------------------------------- NAV----------------------------- */
 
@@ -63,6 +63,7 @@ nav .logo {
 .org h1 {
     text-align: center;
     margin-top: 1rem;
+    font-size: 20px;
 }
 
 .org h2 {
@@ -78,13 +79,13 @@ nav .logo {
 }
 
 .org-text .africa {
-    width: 80%;
+    width: 100%;
     margin-top: 2rem;
-    font-size: 22px;
-    line-height: 2.0;
-    margin-left: 1rem;
+    font-size: 20px;
+    line-height: 2.5;
     font-weight: 550;
     opacity: .8;
+    text-align: center;
 }
 
 .org-img img {
@@ -104,18 +105,20 @@ nav .logo {
 }
 
 .hero-text .fulani {
-    width: 80%;
-    font-size: 22px;
-    line-height: 2.0;
+    width: 100%;
+    font-size: 20px;
+    line-height: 2.5;
     margin-top: 2rem;
-    margin-left: 1rem;
     font-weight: 550;
     opacity: .8;
+    text-align: center;
 }
 
-.hero-img img {
-    width: 100%;
+.home-img img {
+    width: 30%;
     margin-top: 2rem;
+    margin-left: 29.5rem;
+    border-radius: 15px;
 }
 
 .home-text {
@@ -123,17 +126,13 @@ nav .logo {
 }
 
 .home-text .illit {
-    width: 80%;
-    font-size: 22px;
+    width: 100%;
+    font-size: 20px;
     line-height: 2.0;
-    margin-top: 2rem;
-    margin-left: 1rem;
+    margin-top: 2.5rem;
     font-weight: 550;
     opacity: .8;
-}
-
-.home-img img {
-    width: 100%;
+    text-align: center;
 }
 
 .click {
@@ -204,7 +203,11 @@ footer {
 
     .org h1 {
         margin-top: 1rem;
-        font-size: 22px;
+        font-size: 20px;
+    }
+
+    .org h2 {
+        font-size: 18px;
     }
 
     .org-text {
@@ -243,36 +246,15 @@ footer {
         font-size: 18px;
     }
 
+    .home-img img {
+        margin: 0;
+        width: 80%;
+        margin-left: 3.2rem;
+        margin-top: 1rem;
+    }
+
     .pictures h1 {
         font-size: 20px;
-    }
-
-    .pic15 {
-        display: grid;
-    }
-
-    .pic16 {
-        display: grid;
-    }
-
-    .pic17 {
-        display: grid;
-    }
-
-    .pic18 {
-        display: grid;
-    }
-
-    .pic19 {
-        display: grid;
-    }
-
-    .image9 img, .image10 img {
-        width: 100%;
-    }
-
-    .pic20 {
-        display: grid;
     }
     
     .image13 img {

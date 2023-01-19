@@ -14,7 +14,7 @@ nav p {
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -71,17 +71,17 @@ nav .logo {
 }
 
 .org-text {
-    width: 90%;
+    width: 100%;
 }
 
 .org-text p {
     opacity: .8;
     font-weight: 550;
-    line-height: 1.9;
+    line-height: 2.5;
     width: 100%;
     font-size: 20px;
     margin-top: 2rem;
-    margin-left: 2rem;
+    text-align: center;
 }
 
 
@@ -104,12 +104,12 @@ nav .logo {
 
 .donate p {
     margin-top: 1.8rem;
-    line-height: 2.2;
+    line-height: 2.8;
     font-size: 20px;
     opacity: .8;
     font-weight: 550;
-    width: 80%;
-    margin-left: .5rem;
+    width:  100%;
+    text-align: center;
 }
 
 .what img {
@@ -117,11 +117,27 @@ nav .logo {
     margin-top: 2.5rem;
 }
 
+.click {
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
+.image{
+    background-color: rgb(78, 122, 241);
+    color: white;
+    padding: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 3px;
+}
+
 footer {
     background-color: rgb(78, 122, 241);
     color: white;
     padding: 1rem;
     font-weight: 550;
+    margin-top: 4rem;
 }
 
 @media(max-width:1000px){

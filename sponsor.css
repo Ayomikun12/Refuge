@@ -14,7 +14,7 @@ nav p {
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -65,22 +65,24 @@ nav .logo {
 }
 
 .sponsor {
-    display: flex;
+    display: grid;
 }
 
 .sponsor p {
     font-size: 20px;
-    width: 90%;
+    width: 100%;
     margin-top: 2rem;
-    margin-left: 1rem;
     line-height: 2.7;
     font-weight: 550;
     opacity: .8;
+    text-align: center;
 }
 
 .pic img {
-    width: 100%;
+    width: 30%;
     margin-top: 3rem;
+    margin-left: 28rem;
+    border-radius: 15px;
 }
 
 footer {
@@ -142,6 +144,12 @@ footer {
         margin: 0;
         width: 100%;
         margin-top: 1rem;
+    }
+
+    .pic img {
+        width: 80%;
+        margin: 0;
+        margin-left: 3.5rem;
     }
 
     footer {

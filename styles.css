@@ -14,7 +14,7 @@ nav p {
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -182,16 +182,18 @@ nav .logo {
 }
 
 .org-text {
-    width: 90%;
+    width: 100%;
 }
 
 .org-text p {
+    margin-top: .5rem;
     opacity: .8;
     font-weight: 550;
-    line-height: 1.9;
+    line-height: 2.5;
     width: 100%;
-    font-size: 20px;
-    margin-top: 2rem;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 
@@ -212,19 +214,16 @@ nav .logo {
 }
 
 .donate p {
-    margin-top: 1.8rem;
-    line-height: 2.2;
-    font-size: 20px;
+    margin-top: .5rem;
+    line-height: 2.5;
+    font-size: 18px;
     opacity: .8;
     font-weight: 550;
-    width: 80%;
-    margin-left: .5rem;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
-.what img {
-    width: 100%;
-    margin-top: 2.5rem;
-}
 
 footer {
     background-color: rgb(78, 122, 241);

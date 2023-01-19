@@ -14,7 +14,7 @@ nav p {
 
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 nav {
@@ -62,46 +62,52 @@ nav .logo {
 .hero h1 {
     text-align: center;
     margin-top: 1rem;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .part {
-    font-size: 23px;
-    line-height: 2.5;
-    margin-top: 1.8rem;
-    width: 82%;
-    font-weight: 550;
-    opacity: .8;
-    margin-left: 1rem;
-}
-
-.total {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 2.5;
     margin-top: 1.8rem;
     width: 100%;
     font-weight: 550;
     opacity: .8;
-    margin-left: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.total {
+    font-size: 20px;
+    line-height: 2.5;
+    margin-top: 1.8rem;
+    width: 100%;
+    font-weight: 550;
+    opacity: .8;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .teach {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 2.5;
     margin-top: 1.8rem;
-    width: 85%;
+    width: 100%;
     font-weight: 550;
     opacity: .8;
-    margin-left: 1rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .non {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 2.8;
     margin-top: 1.8rem;
     font-weight: 550;
     opacity: .8;
-    margin-left: 1rem;
-    width: 62%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .africa {
@@ -109,16 +115,26 @@ nav .logo {
 }
 
 
-.pic1 img, .pic2 img, .pic3 img, .pic4 img {
-    width: 100%;
+.Picture img {
+    width: 30%;
+    margin-left: 29.4rem;
+    border-radius: 15px;
+    margin-top: 1rem;
 }
 
-.pic1 img {
-    margin-top: 2.7rem;
+.click {
+    margin-top: 2.5rem;
+    text-align: center;
 }
 
-.pic2 img, .pic3 img, .pic4 img {
-    margin-top: 3rem;
+.image{
+    background-color: rgb(78, 122, 241);
+    color: white;
+    padding: 1rem;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 550;
+    border-radius: 3px;
 }
 
 footer {
@@ -126,6 +142,7 @@ footer {
     color: white;
     padding: 1rem;
     font-weight: 550;
+    margin-top: 3rem;
 }
 
 @media(max-width:1000px){
@@ -180,6 +197,12 @@ footer {
         width: 100%;
         margin: 0;
         margin-top: 1.5rem;
+    }
+
+    .Picture img {
+        margin-left: 0;
+        width: 70%;
+        margin-left: 4.5rem;
     }
 
     footer {
