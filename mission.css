@@ -184,7 +184,7 @@ footer {
     }
 
     .hero .lord {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .hero-text {
@@ -192,11 +192,12 @@ footer {
     }
 
     .hero-text .open {
-        text-align: center;
-        width: 100%;
+        text-align: start;
+        width: 95%;
         margin: 0;
-        font-size: 18px;
+        font-size: 15px;
         margin-top: 2rem;
+        margin-left: 1rem;
     }
 
     .org {
@@ -206,18 +207,20 @@ footer {
     .org-img img {
         width: 80%;
         margin: 0;
-        margin-left: 3.5rem;
+        margin-left: 3.2rem;
         margin-top: .5rem;
     }
 
     .org .ful {
-        width: 100%;
-        text-align: center;
+        width: 95%;
+        text-align: start;
         margin: 0;
         margin-top: 1rem;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 2.6;
+        margin-left: 1rem;
     }
+
 
     footer {
         font-size: 13px;

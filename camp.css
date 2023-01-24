@@ -215,11 +215,12 @@ footer {
     }
 
     .org-text .africa {
-        width: 100%;
+        text-align: start;
         margin: 0;
-        text-align: center;
         margin-top: 2rem;
-        font-size: 18px;
+        font-size: 15px;
+        margin-left: 1rem;
+        width: 95%;
     }
 
     .hero-text {
@@ -227,11 +228,12 @@ footer {
     }
 
     .hero-text .fulani {
-        width: 100%;
+        width: 95%;
         margin: 0;
-        text-align: center;
+        text-align: start;
         margin-top: 2rem;
-        font-size: 18px;
+        font-size: 15px;
+        margin-left: 1rem;
     }
 
     .home-text {
@@ -239,17 +241,18 @@ footer {
     }
 
     .home-text .illit {
-        width: 100%;
+        width: 95%;
         margin: 0;
-        text-align: center;
+        text-align: start;
         margin-top: 2rem;
-        font-size: 18px;
+        font-size: 15px;
+        margin-left: 1rem;
     }
 
     .home-img img {
         margin: 0;
         width: 80%;
-        margin-left: 3.2rem;
+        margin-left: 3.3rem;
         margin-top: 1rem;
     }
 

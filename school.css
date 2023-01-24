@@ -188,21 +188,27 @@ footer {
     }
 
     .hero h1 {
-        font-size: 22px;
+        font-size: 20px;
+        text-align: start;
+        margin-left: 1rem;
+        text-decoration: underline;
     }
 
     .hero-text p {
-        font-size: 18px;
-        text-align: center;
-        width: 100%;
+        font-size: 15px;
+        /* text-align: center; */
+        text-align: start;
+        width: 95%;
         margin: 0;
-        margin-top: 1.5rem;
+        margin-top: .5rem;
+        margin-left: 1rem;
     }
+
 
     .Picture img {
         margin-left: 0;
         width: 70%;
-        margin-left: 4.5rem;
+        margin-left: 4rem;
     }
 
     footer {

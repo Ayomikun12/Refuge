@@ -59,10 +59,9 @@ nav .logo {
     cursor: pointer;
 }
 
-.doing {
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
+.doing h1 {
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .org {
@@ -189,22 +188,19 @@ footer {
     .org-text {
         font-size: 15px;
         line-height: 1.8;
-        text-align: center;
+        text-align: start;
         margin-top: 1rem;
         width: 100%;
     }
 
     .org-text p {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 550;
         opacity: .8;
-        text-align: center;
+        text-align: start;
         margin: 0;
-    }
-
-    .ref img {
-        width: 100%;
-        margin-left: 0;
+        margin-left: 1rem;
+        width: 95%;
     }
 
     .gender {
@@ -213,11 +209,17 @@ footer {
     }
 
     .do h1 {
-        font-size: 20px
+        font-size: 20px;
+        text-align: start;
+        margin-left: 1rem;
+        text-decoration: underline;
     }
 
     .doing h1 {
-        font-size: 22px;
+        font-size: 20px;
+        text-decoration: underline;
+        text-align: start;
+        margin-left: 1rem;
     }
 
     .donate {
@@ -225,10 +227,13 @@ footer {
     }
 
     .donate p {
-        text-align: center;
-        margin-left: 0;
+        text-align: start;
+        margin: 0;
         width: 100%;
-        font-size: 17px;
+        font-size: 15px;
+        margin-left: 1rem;
+        width: 95%;
+        margin-top: .3rem;
     }
 
     footer {

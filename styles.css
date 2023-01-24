@@ -172,8 +172,9 @@ nav .logo {
 
 .doing {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 .org {
@@ -193,7 +194,8 @@ nav .logo {
     width: 100%;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 1rem;
 }
 
 
@@ -203,10 +205,11 @@ nav .logo {
 }
 
 .do h1 {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 2rem;
     font-size: 30px;
     font-weight: 700;
+    margin-left: 1rem;
 }
 
 .donate {
@@ -221,7 +224,8 @@ nav .logo {
     font-weight: 550;
     width: 100%;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 1rem;
 }
 
 
@@ -288,18 +292,18 @@ footer {
         margin-left: 0;
     }
 
-    .hero-text h1 {
-        text-align: center;
-    }
-
-    .hero-text p {
-        text-align: center;
-    }
-
     .boy {
         display: grid;
         margin: 0 auto;       
     }
+
+    .doing h1 {
+        font-size: 20px;
+        font-weight: 1000;
+        margin-left: 1rem;
+        text-decoration: underline;
+    }
+
 
     .org {
         display: grid;
@@ -308,16 +312,16 @@ footer {
     .org-text {
         font-size: 15px;
         line-height: 1.8;
-        text-align: center;
-        margin-top: 1rem;
-        width: 100%;
+        margin-top: .2rem;
+        margin-left: 1rem;
+        width: 91%;
     }
 
     .org-text p {
-        font-size: 17px;
+        font-size: 15px;
         font-weight: 550;
         opacity: .8;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .ref img {
@@ -335,7 +339,9 @@ footer {
     }
 
     .do h1 {
-        font-size: 20px
+        font-size: 20px;
+        margin-left: 1rem;
+        text-decoration: underline;
     }
 
     .donate {
@@ -343,10 +349,11 @@ footer {
     }
 
     .donate p {
-        text-align: center;
+        /* text-align: center; */
         margin-left: 0;
-        width: 100%;
-        font-size: 17px;
+        width: 95%;
+        font-size: 15px;
+        margin-left: 1rem;
     }
 
     footer {
