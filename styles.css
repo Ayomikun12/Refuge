@@ -332,6 +332,7 @@ footer {
         opacity: .8;
         margin: 0;
         margin-left: 1rem;
+        width: 95%;
     }
 
     .mat a {

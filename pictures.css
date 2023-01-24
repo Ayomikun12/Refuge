@@ -122,23 +122,27 @@ nav .logo {
     }
 
     .pic15 {
-        display: grid;
+        display: flex;
     }
 
     .pic16 {
-        display: grid;
+        display: flex;
     }
 
     .pic17 {
-        display: grid;
+        display: flex;
     }
 
     .pic18 {
-        display: grid;
+        display: flex;
+    }
+
+    .image7 img, .image8 img {
+        height: 50vh;
     }
 
     .pic19 {
-        display: grid;
+        display: flex;
     }
 
     .image9 img, .image10 img {
@@ -146,12 +150,13 @@ nav .logo {
     }
 
     .pic20 {
-        display: grid;
+        display: flex;
     }
     
     .image13 img {
         width: 100%;
-        margin-left: 0;
+        margin: 0;
+        margin-top: 1rem;
     }
 
     footer {
