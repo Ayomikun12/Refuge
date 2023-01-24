@@ -134,22 +134,30 @@ footer {
         flex-wrap: wrap;
     }
 
+    .what h1 {
+        text-align: start;
+        font-size: 22px;
+        margin-left: 1rem;
+        text-decoration: underline;
+    }
+
     .sponsor {
         display: grid;
     }
 
     .sponsor p {
-        text-align: center;
-        font-size: 18px;
+        text-align: start;
+        font-size: 15px;
         margin: 0;
-        width: 100%;
+        width: 96%;
         margin-top: 1rem;
+        margin-left: 1rem;
     }
 
     .pic img {
         width: 80%;
         margin: 0;
-        margin-left: 3.5rem;
+        margin-left: 2.5rem;
     }
 
     footer {
