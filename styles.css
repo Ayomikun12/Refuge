@@ -14,7 +14,8 @@ nav p {
 
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 
 nav {
@@ -84,7 +85,7 @@ nav .logo {
 .hero-text p {
     font-size: 20px;
     margin-top: 15px;
-    font-weight: 550;
+    font-weight: 400;
     opacity: .8;
 }
 
@@ -122,7 +123,7 @@ nav .logo {
 
 .mat {
     margin-top: 25px;
-    font-weight: 550;
+    font-weight: 300;
     display: flex;
     justify-content: center;
 }
@@ -189,13 +190,11 @@ nav .logo {
 .org-text p {
     margin-top: .5rem;
     opacity: .8;
-    font-weight: 550;
+    font-weight: 400;
     line-height: 2.5;
     width: 100%;
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    /* text-align: center; */
-    margin-left: 1rem;
+    text-align: center;
 }
 
 
@@ -221,13 +220,15 @@ nav .logo {
     line-height: 2.5;
     font-size: 18px;
     opacity: .8;
-    font-weight: 550;
+    font-weight: 300;
     width: 100%;
-    font-family: 'Times New Roman', Times, serif;
-    /* text-align: center; */
     margin-left: 1rem;
+    text-align: center;
 }
 
+i {
+    color: purple;
+}
 
 footer {
     background-color: rgb(78, 122, 241);
@@ -239,7 +240,7 @@ footer {
 
 @media(max-width:1000px){
     nav .mainMenu {
-        height: 35vh;
+        height: 100vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -249,7 +250,7 @@ footer {
         justify-content: center;
         align-items: center;
         background: rgb(78, 122, 241);
-        transition: top 1s ease;
+        transition: 1s ease;
         display: none;
     }
 
@@ -267,7 +268,7 @@ footer {
     nav .mainMenu li a:hover {
         background: none;
         color: white;
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
     nav .logo {
@@ -314,7 +315,7 @@ footer {
         font-size: 20px;
         font-weight: 1000;
         margin: 0;
-        text-decoration: underline;
+        /* text-decoration: underline; */
     }
 
 
@@ -328,7 +329,7 @@ footer {
 
     .org-text p {
         font-size: 15px;
-        font-weight: 550;
+        font-weight: 400;
         opacity: .8;
         margin: 0;
         margin-left: 1rem;
@@ -347,7 +348,7 @@ footer {
     .do h1 {
         font-size: 20px;
         margin-left: 1rem;
-        text-decoration: underline;
+        /* text-decoration: underline; */
         text-align: start;
     }
 

@@ -14,7 +14,8 @@ nav p {
 
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 
 nav {
@@ -73,7 +74,7 @@ nav .logo {
     width: 100%;
     margin-top: 2rem;
     line-height: 2.7;
-    font-weight: 550;
+    font-weight: 400;
     opacity: .8;
     text-align: center;
 }
@@ -83,6 +84,10 @@ nav .logo {
     margin-top: 3rem;
     margin-left: 28rem;
     border-radius: 15px;
+}
+
+i {
+    color: purple;
 }
 
 footer {
@@ -95,7 +100,7 @@ footer {
 
 @media(max-width:1000px){
     nav .mainMenu {
-        height: 36vh;
+        height: 100vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -105,7 +110,7 @@ footer {
         justify-content: center;
         align-items: center;
         background: rgb(78, 122, 241);
-        transition: top 1s ease;
+        transition: 1s ease;
         display: none;
     }
 
@@ -123,7 +128,7 @@ footer {
     nav .mainMenu li a:hover {
         background: none;
         color: white;
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
     nav .logo {
@@ -138,7 +143,6 @@ footer {
         text-align: start;
         font-size: 22px;
         margin-left: 1rem;
-        text-decoration: underline;
     }
 
     .sponsor {

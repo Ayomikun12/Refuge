@@ -14,7 +14,8 @@ nav p {
 
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 
 nav {
@@ -63,7 +64,6 @@ nav .logo {
     text-align: center;
     margin-top: 1rem;
     font-size: 22px;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .part {
@@ -71,10 +71,9 @@ nav .logo {
     line-height: 2.5;
     margin-top: 1.8rem;
     width: 100%;
-    font-weight: 550;
+    font-weight: 400;
     opacity: .8;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .total {
@@ -82,10 +81,9 @@ nav .logo {
     line-height: 2.5;
     margin-top: 1.8rem;
     width: 100%;
-    font-weight: 550;
+    font-weight: 400;
     opacity: .8;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .teach {
@@ -93,21 +91,19 @@ nav .logo {
     line-height: 2.5;
     margin-top: 1.8rem;
     width: 100%;
-    font-weight: 550;
+    font-weight: 400;
     opacity: .8;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .non {
     font-size: 20px;
     line-height: 2.8;
     margin-top: 1.8rem;
-    font-weight: 550;
+    font-weight: 400;
     opacity: .8;
     width: 100%;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
 }
 
 .africa {
@@ -125,6 +121,7 @@ nav .logo {
 .click {
     margin-top: 2.5rem;
     text-align: center;
+    font-weight: 400;
 }
 
 .image{
@@ -137,6 +134,10 @@ nav .logo {
     border-radius: 3px;
 }
 
+i {
+    color: purple;
+}
+
 footer {
     background-color: rgb(78, 122, 241);
     color: white;
@@ -147,7 +148,7 @@ footer {
 
 @media(max-width:1000px){
     nav .mainMenu {
-        height: 30vh;
+        height: 100vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -159,7 +160,6 @@ footer {
         background: rgb(78, 122, 241);
         transition: top 1s ease;
         display: none;
-        margin-top: 1rem;
     }
 
     nav .mainMenu .closeMenu {
@@ -176,7 +176,7 @@ footer {
     nav .mainMenu li a:hover {
         background: none;
         color: white;
-        font-size: .7rem;
+        font-size: .8rem;
     }
 
     nav .logo {
@@ -191,7 +191,6 @@ footer {
         font-size: 20px;
         text-align: start;
         margin-left: 1rem;
-        text-decoration: underline;
     }
 
     .hero-text p {

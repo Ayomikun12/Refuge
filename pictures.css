@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
 
 nav p {
@@ -110,6 +111,18 @@ nav .logo {
     width: 50%;
     margin-left: 20rem;
     margin-top: 4rem;
+}
+
+i {
+    color: purple;
+}
+
+footer {
+    background-color: rgb(78, 122, 241);
+    color: white;
+    padding: 1rem;
+    font-weight: 550;
+    margin-top: 3rem;
 }
 
 @media(max-width:1000px){
