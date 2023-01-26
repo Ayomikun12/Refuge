@@ -226,7 +226,7 @@ nav .logo {
     text-align: center;
 }
 
-i {
+.Ay {
     color: purple;
 }
 
@@ -334,6 +334,7 @@ footer {
         margin: 0;
         margin-left: 1rem;
         width: 95%;
+        text-align: start;
     }
 
     .mat a {
@@ -348,7 +349,6 @@ footer {
     .do h1 {
         font-size: 20px;
         margin-left: 1rem;
-        /* text-decoration: underline; */
         text-align: start;
     }
 
@@ -357,11 +357,11 @@ footer {
     }
 
     .donate p {
-        /* text-align: center; */
         margin-left: 0;
         width: 95%;
         font-size: 15px;
         margin-left: 1rem;
+        text-align: start;
     }
 
     footer {
