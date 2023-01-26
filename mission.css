@@ -146,7 +146,7 @@ footer {
 
 @media(max-width:1000px){
     nav .mainMenu {
-        height: 100vh;
+        height: 36vh;
         position: fixed;
         top: 0;
         right: 0;
