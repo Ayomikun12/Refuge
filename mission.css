@@ -102,8 +102,10 @@ nav .logo {
 
 .org-img img {
     width: 30%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     margin-top: 2rem;
-    margin-left: 29.4rem;
     border-radius: 15px;
 }
 
@@ -136,12 +138,65 @@ nav .logo {
     color: purple;
 }
 
-footer {
+.city {
+    display: flex;
+    background: rgb(88, 88, 177);
+    color: white;
+    margin-top: 3rem;
+}
+
+.refuge h1 {
+    font-size: 20px;
+    margin-left: 3rem;
+}
+
+.refuge, .street {
+    width: 50%;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.refuge, .email {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.refuge, .phone {
+    margin-left: 3rem;
+}
+
+.useful h1 {
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.line {
+    width: 15%;
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.useful, .links {
+    list-style: none;
+    list-style: square;
+}
+
+.links, .cit {
+    margin: 1rem;
+}
+
+.cit, .of {
+    color: white;
+    text-decoration: none;
+    opacity: .8;
+}
+
+.create {
     background-color: rgb(78, 122, 241);
     color: white;
     padding: 1rem;
     font-weight: 550;
-    margin-top: 3rem;
 }
 
 @media(max-width:1000px){
@@ -209,8 +264,10 @@ footer {
     .org-img img {
         width: 80%;
         margin: 0;
-        margin-left: 2rem;
-        margin-top: .5rem;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
 
     .org .ful {
@@ -224,8 +281,46 @@ footer {
     }
 
 
-    footer {
-        font-size: 13px;
+    .city {
+        display: grid;
         margin-top: 3rem;
+    }
+
+    .line {
+        width: 7%;
+    }
+
+    .refuge {
+        margin: 0;
+    }
+
+    .refuge h1 {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+    }
+
+    .refuge, .street {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+        width: 70%;
+    }
+
+    .refuge, .email {
+        margin: 0;
+        margin-left: .4rem;
+        margin-top: 1rem;
+    }
+
+    .refuge, .phone {
+        margin: 0;
+        margin-left: .4rem;
+    }
+
+    .create {
+        font-size: 13px;
+        text-align: center;
+        padding: 2rem;
     }
 }
