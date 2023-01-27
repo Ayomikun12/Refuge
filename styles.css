@@ -486,22 +486,22 @@ footer {
     .ref {
         width: 80%;
         margin: 0;
-        margin-left: 3rem;
+        margin-left: 2rem;
         
     }
 
     .cam {
         width: 80%;
         margin: 0;
-        margin-left: 3rem;
-        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     .mis {
         width: 80%;
         margin: 0;
-        margin-left: 3rem;
-        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     .mission {
@@ -510,10 +510,16 @@ footer {
 
     .tree {
         width: 80%;
+        margin: 0;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     .abt {
         width: 80%;
+        margin: 0;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     footer {
