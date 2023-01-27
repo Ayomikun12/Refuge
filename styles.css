@@ -251,6 +251,8 @@ nav .logo {
     line-height: 1.5;
     text-align: center;
     margin-top: .5rem;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .cam {
@@ -272,6 +274,8 @@ nav .logo {
     line-height: 1.5;
     text-align: center;
     margin-top: .5rem;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .mis {
@@ -293,6 +297,8 @@ nav .logo {
     line-height: 1.5;
     text-align: center;
     margin-top: .5rem;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .mission {
@@ -320,6 +326,8 @@ nav .logo {
     line-height: 1.5;
     text-align: center;
     margin-top: .5rem;
+    font-size: 15px;
+    font-weight: 300;
 }
 
 .abt {
@@ -343,6 +351,7 @@ nav .logo {
     line-height: 1.5;
     text-align: center;
     margin-top: .5rem;
+    font-size: 15px;
 }
 
 footer {
