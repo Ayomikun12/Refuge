@@ -132,8 +132,9 @@ nav .logo {
     text-decoration: none;
     background-color: rgb(78, 122, 241);
     color: white;
-    padding: .4rem;
+    padding: 1rem;
     width: 25%;
+    border-radius: 5px;
     text-align: center;
 }
 
@@ -220,12 +221,32 @@ nav .logo {
     text-align: center;
 }
 
+.africa {
+    background: rgb(78, 122, 241);
+    width: 30%;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.africa p {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+
 .Ay {
     color: purple;
 }
 
 .school {
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .camp {
@@ -442,6 +463,11 @@ footer {
         /* text-decoration: underline; */
     }
 
+    .mat a {
+        padding: 0;
+        padding: .4rem;
+    }
+
 
     .org {
         display: grid;
@@ -488,6 +514,20 @@ footer {
         text-align: start;
     }
 
+    .africa {
+        margin: 0;
+        width: 60%;
+        padding: 0;
+        padding: .5rem;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .africa p {
+        font-size: 18px;
+    }
+
     .camp {
         display: grid;
     }
@@ -495,21 +535,21 @@ footer {
     .ref {
         width: 80%;
         margin: 0;
-        margin-left: 2rem;
+        margin: 0 auto;
         
     }
 
     .cam {
         width: 80%;
         margin: 0;
-        margin-left: 2rem;
+        margin: 0 auto;
         margin-top: 2rem;
     }
 
     .mis {
         width: 80%;
         margin: 0;
-        margin-left: 2rem;
+        margin: 0 auto;
         margin-top: 2rem;
     }
 
@@ -520,14 +560,14 @@ footer {
     .tree {
         width: 80%;
         margin: 0;
-        margin-left: 2rem;
+        margin: 0 auto;
         margin-top: 2rem;
     }
 
     .abt {
         width: 80%;
         margin: 0;
-        margin-left: 2rem;
+        margin: 0 auto;
         margin-top: 2rem;
     }
 
