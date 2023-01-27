@@ -2,7 +2,12 @@ const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 const match = document.querySelector('.match');
-const hero = document.querySelector('.hero');
+const news = document.querySelector('.news')
+const olds = document.querySelector('.olds')
+const first = document.querySelector('.first')
+const secs = document.querySelector('.secs')
+const third = document.querySelector('.third')
+
 
 
 openMenu.addEventListener('click',show);
@@ -21,7 +26,30 @@ match.onclick = function(e){
     location.href = '/sponsor.html'
 }
 
-hero.addEventListener('click',zoom);
+news.onclick = function(e){
+    e.preventDefault();
+    location.href = '/school.html'
+}
+
+olds.onclick = function(e){
+    e.preventDefault();
+    location.href = '/camp.html'
+}
+
+first.onclick = function(e){
+    e.preventDefault();
+    location.href = '/mission.html'
+}
+
+secs.onclick = function(e){
+    e.preventDefault();
+    location.href = '/tree.html'
+}
+
+third.onclick = function(e){
+    e.preventDefault();
+    location.href = '/about.html'
+}
 
 
 
@@ -35,5 +63,4 @@ form.onsubmit = function(e){
 
     let optionValue = this.country.value;
 
-    // location.href = '/sponsor.html'
 }

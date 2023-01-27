@@ -1,7 +1,10 @@
 const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
-
+const olds = document.querySelector('.olds')
+const first = document.querySelector('.first')
+const secs = document.querySelector('.secs')
+const third = document.querySelector('.third')
 
 
 openMenu.addEventListener('click',show);
@@ -13,4 +16,24 @@ function show(){
 }
 function close(){
     mainMenu.style.top = '-100%';
+}
+
+olds.onclick = function(e){
+    e.preventDefault();
+    location.href = '/camp.html'
+}
+
+first.onclick = function(e){
+    e.preventDefault();
+    location.href = '/mission.html'
+}
+
+secs.onclick = function(e){
+    e.preventDefault();
+    location.href = '/tree.html'
+}
+
+third.onclick = function(e){
+    e.preventDefault();
+    location.href = '/about.html'
 }
