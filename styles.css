@@ -197,10 +197,81 @@ nav .logo {
     text-align: center;
 }
 
+/* .ref {
+    display: flex;
+    justify-content: center;
+} */
+
+.school {
+    display: flex;
+}
+
+.cam img {
+    width: 90%;
+    margin-top: 3rem;
+    border-radius: 15px;
+    margin-right: 1rem;
+}
+
+.hear {
+    position: absolute;
+    top: 1600px;
+    margin-left: 6rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 5px; 
+}
+
+.keep img {
+    width: 70%;
+    margin-top: 5rem;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
 
 .ref img {
-    width: 98%;
+    width: 60%;
     margin-top: 2.5rem;
+    border-radius: 15px;
+    margin-left: 1rem;
+}
+
+
+.head {
+    position: absolute;
+    top: 1600px;
+    margin-left: 4.5rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 5px;
+}
+
+.mission {
+    display: flex;
+}
+
+.abt img {
+    width: 95%;
+    margin-top: 4.5rem;
+    border-radius: 15px;
+}
+
+.heading {
+    position: absolute;
+    top: 2050px;
+    margin-left: 5.5rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 5px;
+}
+
+.header {
+    position: absolute;
+    top: 2050px;
+    margin-left: 10rem;
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 3rem 2rem 3rem;
+    border-radius: 5px;
 }
 
 .do h1 {
@@ -235,7 +306,7 @@ footer {
     color: white;
     padding: 1rem;
     font-weight: 550;
-    margin-top: 3rem;
+    margin-top: 7rem;
 }
 
 @media(max-width:1000px){
@@ -364,8 +435,67 @@ footer {
         text-align: start;
     }
 
+    .school {
+        display: grid;
+    }
+
+    .ref img {
+        width: 90%;
+        margin: 0;
+        margin-left: 1.4rem;
+        margin-top: 3rem;
+    }
+
+    .head {
+        top: 2450px;
+        margin: 0;
+        margin-left: 3.4rem;
+    }
+
+    .cam img {
+        width: 90%;
+        margin-top: 7rem;
+        margin-left: 1.4rem;
+    }
+
+    .hear {
+        top: 2850px;
+        margin: 0;
+        margin-left: 4.2rem;
+    }
+
+    .mission{
+        display: grid;
+    }
+
+    .keep img {
+        width: 90%;
+        margin: 0;
+        margin-top: 7rem;
+        margin-left: 1.4rem;
+    }
+
+    .heading {
+        top: 3280px;
+        margin: 0;
+        margin-left: 2.8rem;
+    }
+
+    .abt img {
+        width: 90%;
+        margin: 0;
+        margin-top: 7rem;
+        margin-left: 1.4rem;
+    }
+
+    .header {
+        top: 3700px;
+        margin: 0;
+        margin-left: 8.5rem;
+    }
+
     footer {
         font-size: 13px;
-        margin-top: 3rem;
+        margin-top: 6rem;
     }
 }
