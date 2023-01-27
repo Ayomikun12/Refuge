@@ -197,83 +197,6 @@ nav .logo {
     text-align: center;
 }
 
-/* .ref {
-    display: flex;
-    justify-content: center;
-} */
-
-.school {
-    display: flex;
-}
-
-.cam img {
-    width: 90%;
-    margin-top: 3rem;
-    border-radius: 15px;
-    margin-right: 1rem;
-}
-
-.hear {
-    position: absolute;
-    top: 1600px;
-    margin-left: 6rem;
-    background-color: rgb(255, 255, 255);
-    padding: 2rem 3rem 2rem 3rem;
-    border-radius: 5px; 
-}
-
-.keep img {
-    width: 70%;
-    margin-top: 5rem;
-    border-radius: 15px;
-    margin-left: 1rem;
-}
-
-.ref img {
-    width: 60%;
-    margin-top: 2.5rem;
-    border-radius: 15px;
-    margin-left: 1rem;
-}
-
-
-.head {
-    position: absolute;
-    top: 1600px;
-    margin-left: 4.5rem;
-    background-color: rgb(255, 255, 255);
-    padding: 2rem 3rem 2rem 3rem;
-    border-radius: 5px;
-}
-
-.mission {
-    display: flex;
-}
-
-.abt img {
-    width: 95%;
-    margin-top: 4.5rem;
-    border-radius: 15px;
-}
-
-.heading {
-    position: absolute;
-    top: 2050px;
-    margin-left: 5.5rem;
-    background-color: rgb(255, 255, 255);
-    padding: 2rem 3rem 2rem 3rem;
-    border-radius: 5px;
-}
-
-.header {
-    position: absolute;
-    top: 2050px;
-    margin-left: 10rem;
-    background-color: rgb(255, 255, 255);
-    padding: 2rem 3rem 2rem 3rem;
-    border-radius: 5px;
-}
-
 .do h1 {
     text-align: center;
     margin-top: 2rem;
@@ -299,6 +222,127 @@ nav .logo {
 
 .Ay {
     color: purple;
+}
+
+.school {
+    margin-top: 5rem;
+}
+
+.camp {
+    display: flex;
+}
+
+.ref {
+    background-color: rgb(228, 222, 222);
+    border-radius: 15px;
+    width: 30%;
+    margin-left: 1rem;
+    padding: 2rem;
+}
+
+.ref h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.ref p {
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.cam {
+    background-color: rgb(228, 222, 222);
+    width: 30%;
+    margin-left: 3rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+.cam h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.cam p {
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.mis {
+    background-color: rgb(228, 222, 222);
+    width: 30%;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-left: 3rem;
+}
+
+.mis h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.mis p {
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.mission {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tree {
+    background-color: rgb(228, 222, 222);
+    width: 30%;
+    padding: 2rem;
+    border-radius: 15px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.tree h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.tree p {
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+.abt {
+    background-color: rgb(228, 222, 222);
+    width: 30%;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.abt h1 {
+    font-size: 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: .6rem;
+}
+
+.abt p {
+    width: 100%;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: .5rem;
 }
 
 footer {
@@ -435,63 +479,41 @@ footer {
         text-align: start;
     }
 
-    .school {
+    .camp {
         display: grid;
     }
 
-    .ref img {
-        width: 90%;
+    .ref {
+        width: 80%;
         margin: 0;
-        margin-left: 1.4rem;
-        margin-top: 3rem;
+        margin-left: 3rem;
+        
     }
 
-    .head {
-        top: 2450px;
+    .cam {
+        width: 80%;
         margin: 0;
-        margin-left: 3.4rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
     }
 
-    .cam img {
-        width: 90%;
-        margin-top: 7rem;
-        margin-left: 1.4rem;
-    }
-
-    .hear {
-        top: 2850px;
+    .mis {
+        width: 80%;
         margin: 0;
-        margin-left: 4.2rem;
+        margin-left: 3rem;
+        margin-top: 1rem;
     }
 
-    .mission{
+    .mission {
         display: grid;
     }
 
-    .keep img {
-        width: 90%;
-        margin: 0;
-        margin-top: 7rem;
-        margin-left: 1.4rem;
+    .tree {
+        width: 80%;
     }
 
-    .heading {
-        top: 3280px;
-        margin: 0;
-        margin-left: 2.8rem;
-    }
-
-    .abt img {
-        width: 90%;
-        margin: 0;
-        margin-top: 7rem;
-        margin-left: 1.4rem;
-    }
-
-    .header {
-        top: 3700px;
-        margin: 0;
-        margin-left: 8.5rem;
+    .abt {
+        width: 80%;
     }
 
     footer {
