@@ -648,6 +648,7 @@ nav .logo {
         margin: 0;
         margin-left: .4rem;
         margin-top: 1rem;
+        width: 70%;
     }
 
     .refuge, .email {
