@@ -45,7 +45,7 @@ nav .mainMenu li a:hover {
 }
 
 nav .openMenu {
-    font-size: .6rem;
+    font-size: 1rem;
     margin: 20px;
     display: none;
 }
@@ -58,6 +58,7 @@ nav .logo {
     margin: 6px;
     font-size: 18px;
     cursor: pointer;
+    margin-top: 12px;
 }
 
 .hero-text {
