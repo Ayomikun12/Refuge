@@ -7,6 +7,17 @@ const olds = document.querySelector('.olds')
 const first = document.querySelector('.first')
 const secs = document.querySelector('.secs')
 const third = document.querySelector('.third')
+const form = document.getElementById('form');
+const ngn = document.getElementById('ngn');
+const usd = document.getElementById('usd');
+const euro = document.getElementById('euro');
+const gbp = document.getElementById('gbp');
+
+
+form.addEventListener('submit', e => {
+    e.preventDefault();
+});
+
 
 
 
@@ -53,14 +64,14 @@ third.onclick = function(e){
 
 
 
-let form = document.forms['my-form'];
-console.log(form)
-let menu = form.country;
-let options = form.country.options;
+// let form = document.forms['my-form'];
+// console.log(form)
+// let menu = form.country;
+// let options = form.country.options;
 
-form.onsubmit = function(e){
-    e.preventDefault();
+// form.onsubmit = function(e){
+//     e.preventDefault();
 
-    let optionValue = this.country.value;
+//     let optionValue = this.country.value;
 
-}
+// }
