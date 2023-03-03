@@ -478,14 +478,14 @@ nav .logo {
 
 @media(max-width:1000px){
     nav .mainMenu {
-        height: 100vh;
+        height: 46vh;
         position: fixed;
         top: 0;
         right: 0;
-        left: 250px;
+        left: 100;
         z-index: 10;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         background: rgb(78, 122, 241);
         transition: top 1s ease;
@@ -505,10 +505,6 @@ nav .logo {
     nav .openMenu {
         display: block;
         cursor: pointer;
-    }
-
-    li a {
-        margin-top: 2.4rem;
     }
 
     nav .mainMenu li a:hover {
