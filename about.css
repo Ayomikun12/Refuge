@@ -228,7 +228,7 @@ nav .logo {
         top: 20px;
         right: 20px;
         font-size: 1.7rem;
-        margin-top: 1rem;
+        margin-top: .5rem;
     }
 
     nav .openMenu {
@@ -244,7 +244,7 @@ nav .logo {
 
     nav .logo {
         font-size: 15px;
-        margin-top: .8rem;
+        margin-top: 1rem;
     }
 
     .org {

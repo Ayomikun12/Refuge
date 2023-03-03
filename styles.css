@@ -377,9 +377,9 @@ nav .logo {
     background: linear-gradient(to top, rgba(231, 228, 228, 0.5)50%,rgba(233, 231, 231, 0.5)50%), url(/IMG-20221224-WA0033.jpg);
     background-position: center;
     background-size: cover;
-    width: 30%;
+    width: 25%;
     padding: 1rem;
-    border-radius: 50rem;
+    border-radius: 70rem;
     margin-left: 3rem;
     margin-top: 2rem;
 }
@@ -515,7 +515,7 @@ nav .logo {
 
     nav .logo {
         font-size: 15px;
-        margin-top: .8rem;
+        margin-top: 1rem;
     }
 
     nav {

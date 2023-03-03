@@ -241,7 +241,7 @@ nav .logo {
         top: 0;
         right: 20px;
         font-size: 1.7rem;
-        margin-top: 1rem;
+        margin-top: .5rem;
         cursor: pointer;
     }
 
@@ -253,7 +253,7 @@ nav .logo {
     nav .mainMenu li a:hover {
         background: none;
         color: white;
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
 

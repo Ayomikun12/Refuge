@@ -158,14 +158,14 @@ nav .logo {
 
 @media(max-width:1000px){
     nav .mainMenu {
-        height: 100vh;
+        height: 43vh;
         position: fixed;
         top: 0;
         right: 0;
-        left: 250px;
+        left: 100;
         z-index: 10;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         background: rgb(78, 122, 241);
         transition: 1s ease;
@@ -178,7 +178,7 @@ nav .logo {
         top: 20px;
         right: 20px;
         font-size: 1.7rem;
-        margin-top: 1rem;
+        margin-top: .5rem;
     }
 
     nav .openMenu {
@@ -191,13 +191,9 @@ nav .logo {
         font-size: .8rem;
     }
 
-    li a {
-        margin-top: 2.4rem;
-    }
-
     nav .logo {
         font-size: 15px;
-        margin-top: .8rem;
+        margin-top: 1rem;
     }
 
     nav {
