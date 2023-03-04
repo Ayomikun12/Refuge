@@ -434,6 +434,7 @@ nav .logo {
     display: flex;
     justify-content: center;
     margin-top: 400px;
+    display: none;
 }
 
 .manual-btn {
@@ -443,6 +444,7 @@ nav .logo {
     cursor: pointer;
     transition: 1s;
     margin-top: 40px;
+    display: none;
 }
 
 .manual-btn:not(:last-child){
@@ -475,6 +477,7 @@ nav .logo {
     width: 58.7%;
     justify-content: center;
     margin-top: 440px;
+    display: none;
 }
 
 .navigation-auto div {
@@ -482,6 +485,7 @@ nav .logo {
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
+    display: none;
 }
 
 .navigation-auto div:not(:last-child){
