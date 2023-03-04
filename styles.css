@@ -399,6 +399,111 @@ nav .logo {
     font-weight: 500;
 }
 
+.slider {
+    width: 50%;
+    /* height: 500px; */
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.slides {
+    width: 500%;
+    display: flex;
+}
+
+.slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 100%;
+}
+
+.navigation-manual {
+    position: absolute;
+    width: 58.7%;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.manual-btn {
+    border: 2px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    margin-top: 40px;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover {
+    background: yellow;
+}
+
+#radio1:checked ~ .first {
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+    margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+    margin-left: -40%;
+}
+
+#radio4:checked ~ .first {
+    margin-left: -60%;
+}
+
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 58.7%;
+    justify-content: center;
+    margin-top: 440px;
+}
+
+.navigation-auto div {
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1 {
+    background-color: yellow;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2 {
+    background-color: yellow;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3 {
+    background-color: yellow;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4 {
+    background-color: yellow;
+}
+
 .city {
     display: flex;
     background: rgb(88, 88, 177);
@@ -687,6 +792,34 @@ nav .logo {
         margin: 0;
         margin: 0 auto;
         margin-top: 2rem;
+    }
+
+    .navigation-manual {
+        margin: 0;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20rem;
+        margin-left: 5.7rem;
+    }
+
+    .manual-btn {
+        margin: 0;
+        /* justify-content: center;
+        margin: 0 auto; */
+    }
+
+    .navigation-auto {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 20rem;
+        margin-left: 5.7rem;
+    }
+
+    .slider {
+        width: 100%;
     }
 
     .city {
